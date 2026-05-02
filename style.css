@@ -34,6 +34,13 @@ body {
 	padding: 24px;
 }
 
+.page-result {
+	background:
+		radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.48) 0 14%, transparent 28%),
+		radial-gradient(circle at 85% 12%, rgba(255, 255, 255, 0.4) 0 12%, transparent 24%),
+		linear-gradient(135deg, #e7f7ff 0%, #c6e7ff 50%, #b9d6ff 100%);
+}
+
 .card {
 	width: min(100%, 560px);
 	padding: 30px;
