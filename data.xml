@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- data.xml — Dados dos 12 signos zodiacais (nome, período de início/fim e descrição) -->
+<signos>
+	<signo>
+		<nome>Áries</nome>
+		<inicio>03-21</inicio>
+		<fim>04-19</fim>
+		<descricao>Pessoas de Áries costumam ser determinadas, corajosas e cheias de energia para iniciar novos projetos.</descricao>
+	</signo>
+	<signo>
+		<nome>Touro</nome>
+		<inicio>04-20</inicio>
+		<fim>05-20</fim>
+		<descricao>Touro representa estabilidade, persistência e apreço por conforto, segurança e praticidade.</descricao>
+	</signo>
+	<signo>
+		<nome>Gêmeos</nome>
+		<inicio>05-21</inicio>
+		<fim>06-20</fim>
+		<descricao>Gêmeos é associado a comunicação, curiosidade e versatilidade para lidar com diferentes situações.</descricao>
+	</signo>
+	<signo>
+		<nome>Câncer</nome>
+		<inicio>06-21</inicio>
+		<fim>07-22</fim>
+		<descricao>Cancerianos tendem a ser sensíveis, protetores e muito ligados à família e aos sentimentos.</descricao>
+	</signo>
+	<signo>
+		<nome>Leão</nome>
+		<inicio>07-23</inicio>
+		<fim>08-22</fim>
+		<descricao>Leão simboliza confiança, criatividade e vontade de se expressar com autenticidade e brilho.</descricao>
+	</signo>
+	<signo>
+		<nome>Virgem</nome>
+		<inicio>08-23</inicio>
+		<fim>09-22</fim>
+		<descricao>Virginianos geralmente prezam por organização, análise cuidadosa e atenção aos detalhes.</descricao>
+	</signo>
+	<signo>
+		<nome>Libra</nome>
+		<inicio>09-23</inicio>
+		<fim>10-22</fim>
+		<descricao>Libra busca equilíbrio, diplomacia e harmonia nas relações e decisões do dia a dia.</descricao>
+	</signo>
+	<signo>
+		<nome>Escorpião</nome>
+		<inicio>10-23</inicio>
+		<fim>11-21</fim>
+		<descricao>Escorpião está ligado à intensidade, profundidade emocional e grande poder de transformação.</descricao>
+	</signo>
+	<signo>
+		<nome>Sagitário</nome>
+		<inicio>11-22</inicio>
+		<fim>12-21</fim>
+		<descricao>Sagitarianos costumam ter espírito aventureiro, visão otimista e interesse por novos horizontes.</descricao>
+	</signo>
+	<signo>
+		<nome>Capricórnio</nome>
+		<inicio>12-22</inicio>
+		<fim>01-19</fim>
+		<descricao>Capricórnio representa disciplina, foco em objetivos e responsabilidade na construção do futuro.</descricao>
+	</signo>
+	<signo>
+		<nome>Aquário</nome>
+		<inicio>01-20</inicio>
+		<fim>02-18</fim>
+		<descricao>Aquário é associado a inovação, independência e pensamento voltado para o coletivo.</descricao>
+	</signo>
+	<signo>
+		<nome>Peixes</nome>
+		<inicio>02-19</inicio>
+		<fim>03-20</fim>
+		<descricao>Peixes expressa empatia, imaginação e sensibilidade para compreender emoções profundas.</descricao>
+	</signo>
+</signos>

@@ -1,0 +1,134 @@
+/* style.css — Estilização das páginas de formulário e resultado */
+
+:root {
+	--bg-1: #fff7e8;
+	--bg-2: #ffd7a8;
+	--ink: #1e2330;
+	--muted: #5f6779;
+	--accent: #d45500;
+	--accent-strong: #b24300;
+	--card-bg: rgba(255, 255, 255, 0.78);
+	--error: #b3261e;
+	--ok: #14532d;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+	color: var(--ink);
+	background:
+		radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.7) 0 18%, transparent 30%),
+		radial-gradient(circle at 90% 90%, rgba(255, 255, 255, 0.6) 0 16%, transparent 28%),
+		linear-gradient(140deg, var(--bg-1), var(--bg-2));
+}
+
+.page {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+}
+
+.card {
+	width: min(100%, 560px);
+	padding: 30px;
+	border-radius: 20px;
+	background: var(--card-bg);
+	backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.55);
+	box-shadow: 0 16px 36px rgba(51, 25, 8, 0.18);
+}
+
+h1 {
+	margin: 0 0 10px;
+	font-size: clamp(1.7rem, 3.2vw, 2.2rem);
+}
+
+h2 {
+	margin: 8px 0 6px;
+	font-size: clamp(1.4rem, 2.8vw, 1.8rem);
+	color: var(--accent-strong);
+}
+
+.subtitle,
+.description {
+	margin: 0;
+	line-height: 1.6;
+	color: var(--muted);
+}
+
+.form-signo {
+	margin-top: 20px;
+	display: grid;
+	gap: 12px;
+}
+
+label {
+	font-weight: 700;
+}
+
+input[type="date"] {
+	width: 100%;
+	padding: 12px;
+	border-radius: 12px;
+	border: 1px solid #c4a07f;
+	font-size: 1rem;
+	background-color: #fffdf9;
+}
+
+button {
+	border: none;
+	border-radius: 12px;
+	padding: 13px 16px;
+	font-size: 1rem;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+	cursor: pointer;
+	transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+button:hover {
+	transform: translateY(-1px);
+	filter: brightness(1.03);
+}
+
+.message {
+	margin: 6px 0;
+	padding: 10px 12px;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+.message.error {
+	color: var(--error);
+	background-color: #fde8e7;
+}
+
+.message.ok {
+	color: var(--ok);
+	background-color: #e9f7ef;
+}
+
+.back-link {
+	display: inline-block;
+	margin-top: 18px;
+	color: var(--accent-strong);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.back-link:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+	.card {
+		padding: 22px;
+	}
+}
